@@ -1,0 +1,594 @@
+/* Colors
+/* --imperial-red: #e63946ff;
+--honeydew: #f1faeeff;
+--powder-blue: #a8dadcff;
+--celadon-blue: #457b9dff;
+--prussian-blue: #1d3557ff; */
+
+/*  -- GENERAL  ------------------------------- */
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    
+    
+}
+
+/*  --   ------------------------------- */
+h1#idTitre{
+    color: #f1faee;
+    background-color: #457b9d;
+    font-size: 60px;
+    border:solid black 3px;
+    width:482px;
+    position: relative;
+    left:7px;
+    top:-25px;
+   /*  text-shadow: 0 0 15px black, 0 0 5px rgb(24, 24, 136); test text shadow*/
+
+}
+
+a#idLogo{
+    text-decoration: none;
+    color:white;
+}
+
+.container1{
+    background-color: #a8dadc;
+    text-align: center;
+    width:500px; /* calculer avec calc */
+    left:35%;
+    position: absolute;
+    top:100px;
+    font-size:20px;
+    border:solid black 3px;
+    height:auto;
+
+}
+
+body{
+    background-color:  #f1faee;
+}
+
+a#idboutonEntrez{
+    background-color: #e63946;
+    color: white;
+    font-size:25px;
+    border: solid black 2px;
+    position: relative;
+    top:-38px;
+    text-decoration:none;
+    padding:3px 3px 0px 3px;
+}
+
+a#idboutonEntrez:hover{
+    cursor:pointer;
+    background-color:rgb(156, 37, 47);
+}
+
+div#idmeConnecter{
+    color:white;
+    
+    background-color: #1d3557;
+    border: solid black 2px;
+    width:250px;
+    left:75px;
+    top:-50px;
+    position: relative;
+    padding:5px 50px 0px 50px;
+}
+
+a#iddevenirMembre{
+    color:white;
+    background-color:#457b9d;
+    text-decoration: none;
+    position: relative;
+    top:0px;
+    border: solid black 2px;
+    
+}
+
+a#iddevenirMembre:hover{
+    background-color:#345c75;
+}
+
+div#idnomUtilisateur{
+    font-size:25px;
+    top:-40px;
+    color: black;
+    position: relative;
+}
+
+div#idmotDePasse{
+    font-size:25px;
+    position: relative;
+    top:-40px;
+}
+
+input#idnomUtilisateur{
+    font-size: 20px;
+    margin:10px 0px 10px 0px;
+    border:solid black 2px;
+    position: relative;
+    top:-40px;
+}
+input#idmotDePasse{
+    font-size: 20px;
+    margin:10px 0px 10px 0px;
+    border:solid black 2px;
+    position: relative;
+    top:-40px;
+}
+
+div#iderreurLogin{
+    top:-20px;
+    position: relative;
+    display:none;
+    color:white;
+    background-color:#e63946;
+
+}
+
+div#iddevenirMembreForm{
+    color:white;
+    
+    background-color: #1d3557;
+    border: solid black 2px;
+    width:250px;
+    left:75px;
+    top:-50px;
+    position: relative;
+    padding:5px 50px 0px 50px;
+    
+}
+/*  -- FORMULAIRE  ------------------------------- */
+.container2{
+    background-color: #a8dadc;
+    text-align: center;
+    width:500px; /* calculer avec calc */
+    left:35%;
+    position: absolute;
+    top:100px;
+    font-size:20px;
+    border:solid black 3px;
+    height:auto;
+}
+
+div#idnom{
+    top:-40px;
+    position: relative;
+    
+}
+div#idprenom{
+    top:-40px;
+    position: relative;
+}
+div#idcourriel{
+    top:-40px;
+    position: relative;
+}
+div#idcourrielConfirm{
+    top:-40px;
+    position: relative;
+}
+
+a#idboutonSoumettre{
+    background-color: #e63946;
+    color: white;
+    font-size:25px;
+    border: solid black 2px;
+    position: relative;
+    top:-22px;
+    text-decoration:none;
+    padding:3px 10px 0px 10px;
+}
+
+a#idboutonSoumettre:hover{
+    cursor:pointer;
+    background-color:#9c252f;
+}
+div#iderreurForm{
+    top:-30px;
+    position: relative;
+    display:none;
+    color:white;
+    background-color:#e63946;
+
+}
+
+/* ul#idMenu{
+   text-decoration: none;
+} */
+
+div#idMotDePasseOublie{
+    position: relative;
+    border:solid black 2px;
+    color: white;
+    background-color:#1d3557;
+    top:-10px;
+    width:200px;
+    left:150px;
+    font-size:17px;
+}
+
+div#idMotDePasseOublie:hover{
+
+   /*  insert code here */
+}
+/*  -- INDEX(MAIN)  ------------------------------- */
+header#idHeaderIndex{ /* add id */
+    background-color: #345c75;
+    width:101.5%;
+    height:170px;
+    margin:-40px 5px 0px -8px;
+    padding:0px 0px 0px 0px;
+    border:none;
+    position:relative;
+}
+
+h1#idTitreMain{
+    /* text-shadow: 0 0 13px blue, 0 0 5px red; */
+    color:#f1faee;
+    font-size:50px;
+    left:10px;
+    position: relative;
+}
+
+div#idDeconnecter{
+    position: relative;
+    border: solid black 3px;
+    color: black;
+    width:160px;
+    text-align: center;
+    float:right;
+    right:25px;
+    top:-190px;
+    background-color:white;
+    font-size:20px;
+    
+    
+}
+
+a#idDeconnecter{
+    text-decoration: none;
+    color: black;
+
+}
+
+a#idDeconnecter:hover{
+    font-size:21px;
+        
+}
+
+h2#idTitreMain{
+    color:white;
+    font-size:45px;
+    position: relative;
+    top:-50px;
+    font-weight: normal;
+    left:10px;
+}
+
+body#idBackground{
+    background-color: #f1faee;
+}
+
+/* ul#idMenu{
+    color:white;
+    list-style: none;
+    text-align: center;
+    padding:0;
+    margin:0;
+    display:block
+} */
+
+/*  -- MENU  ------------------------------- */
+
+.dropbtn {
+    background-color: #1d3557;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: none;
+    width:160px;
+    
+  
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top:-90px;
+    border: 2px solid black;
+    font-size: 20px;
+    left:10px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d3557;  /* #3e67a0; */
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #3e67a0;
+    border: 2px solid black;
+    color: white;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e67a0;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+a#idContact{
+    text-decoration: none;
+    color:white;
+}
+
+/*  -- PANIER  ------------------------------- */
+div#idPanier{
+    border: solid black 3px;
+    background-color:#e63946;
+    color:white;
+    font-size:30px;
+    width:130px;
+    text-align:center;
+    position: absolute;
+    right:25px;
+    top:60px;
+  /*   display:none; if panier empyty? */
+}
+
+div#idPanier:hover{
+    background-color:#9c252f;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+/* div#idNombreItem:hover{
+    background-color:#9c252f;
+    cursor: pointer;
+} */
+
+div#idNombreItem{
+    border: solid black 3px;
+    background-color:#e63946;
+    color:white;
+    font-size:20px;
+    width:130px;
+    text-align:center;
+    position: absolute;
+    right:25px;
+    top:120px;
+    padding:-3px 15px 0px 5px;
+}
+
+
+
+
+/*  -- UNDER CONSTRUCTION  ------------------------------- */
+div#idMessageConstruction{
+    text-align: center;
+    top:200px;
+    left:200px;
+    position:absolute;
+    font-size:40px;
+    width: 750px;
+    border: solid black 3px;
+    background-color:yellow;
+}
+
+/* -- PROMOTION -------------------------- */
+img#idImage2{
+
+    width:250px;
+    height:350px;
+    position: relative;
+    left:20px;
+    /* top:-20px; */
+    border: solid red 3px;
+}
+
+div#idPrix2{
+    position:relative;
+    left:400px;
+    font-size:40px;
+    color:red;
+    top:100px;
+    border: solid black 3px;
+    background-color:white;
+    width:150px;
+    padding:0px 0px 0px 15px;
+}
+
+div#idFrame{
+    position: relative;
+    width:700px;
+    background-color: #a8dadc;
+    border : solid black 3px;
+    height:450px;
+    left:300px;
+    top:50px;
+}
+
+div#idDetails{
+    position: relative;
+    top:-300px;
+    left:340px;
+    font-size:25px;
+    text-align: center;
+    /* background-color:white; */
+    text-align: center;
+    width:300px;
+}
+
+
+
+
+div#idPromotion{
+    position: relative;
+    border: solid black 3px;
+    background-color:#e63946;
+    color:white;
+    font-size:30px;
+    width:400px;
+    text-align:center;
+    left:10px;
+    top:-440px;
+/*     display:block; */
+}
+
+
+img#idImage{
+    position: relative;
+    top:20px;
+    left:20px;
+    width:280px;
+    height:410px;
+}
+
+.item {
+    font-size: 20px;
+    
+    text-align: center;
+    color: black;
+    width: 15%;
+    margin-left: 100px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.ajouter {
+    background-color: red;
+    color:white;
+    width: 50%;
+    height: 30px;
+    top: -20px;
+   
+    margin-left: 25%;
+  
+    cursor: pointer;
+    border: solid black 3px;
+}
+.ajouter:hover{
+    background-color:#9c252f;
+    font-size:21px;
+}
+.item:hover{
+    cursor: pointer;
+    
+}
+
+img.imageItem{
+    width:50%;
+}
+
+/*    --  PANIER CHECKOUT ---------------------- */
+
+thead{
+    background-color:#1d3557;
+    color:white;
+    margin:0px 30px 0px 30px;
+    padding:0px;
+}
+
+th{
+    
+    width:275px;
+    font-size:25px;
+}
+
+tbody#corpsTableau{
+    font-size:20px;
+    text-align: center;
+   
+}
+/* -- CONTACT  ------------------------------------ */
+div#idContactTitre{
+    font-size:30px;
+    color:white;
+    background-color:#457b9d;
+    text-align: center;
+    width:180px;
+    top:20px;
+    position: relative;
+    border: solid black 3px;
+}
+
+p#idContact{
+    font-size: 25px;
+  
+}
+
+img#idImageMap{
+    position: relative;
+    width:300px;
+    top:-275px;
+    left:320px;
+    border: solid black 3px;
+}
+
+/* -- SOUS-TOTAL ------------------------- */
+
+div#idSousTotal{
+    border: none;
+    background-color:#1d3557;
+    color:white;
+    font-size:25px;
+    
+    width: 100%;
+    padding:0px 20px 0px 0px;
+    position: relative;
+    text-align:right;
+    
+}
+
+span#idTotalPanier{
+    border: none;
+  
+}
+div#idPasserCommande{
+    position:relative;
+    top:0px;
+    width:100%;
+    text-align:right;
+ 
+    font-size:25px;
+}
+
+
+div#idPasserCommandeOk{
+    background-color:#e63946;
+    color:white;
+    text-align:center;
+    width: 265px;
+    float:right;
+    padding: 5px 10px 5px 10px;
+    font-size:21px;
+    margin:0px -5px 0px 0px;
+    border-radius: 3px;
+}
+
+div#idPasserCommandeOk:hover{
+    background-color:#9c252f;
+    cursor: pointer;
+    font-size:22px;
+}
